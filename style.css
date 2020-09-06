@@ -1,0 +1,199 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* color intigration
+ primary color: #fff;
+ secondary color:#f0f0f0;
+ font color: black;
+ second font color:b4ad9e;*/ 
+ body{
+ 	font-family: font-family: 'Playfair Display', serif;
+ }
+h1,h2,h3,h4,h5,h6,p,span,input,button{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	display: flow-root;
+
+}
+.main_header{
+	width: 100%;
+	float: left;
+	padding: : 30px 0;
+	margin: 20px 0;
+}
+.logo{
+	width: 30%;
+	float: left;
+	
+}
+.menu_item{
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+.menu_item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 70px;
+}
+.menu_item ul li a{
+	text-transform: uppercase;
+}
+/* banner post css here*/
+.banner_post{
+	width: 100%;
+	float: left;
+	
+
+}
+.post{
+	
+}
+.post_details{
+	margin: 70px;
+}
+.post_details span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.post_details h1{
+	margin: 15px 0;
+	font-weight: 500;
+}
+.post_details p{
+	margin-bottom: 20px;
+}
+/*main blog css code here*/
+.main_blog{
+	width: 100%;
+	display: flow-root;
+}
+.blog{
+	width: 92%;
+	float: left;
+	margin: 70px;
+}
+.left{
+	width: 45%;
+	float: left;
+	margin: 20px;
+}
+.right{
+	width: 45%;
+	float: right;
+	margin: 20px;
+}
+.post_details{
+	margin: 30px 0;
+}
+.blog_body img{
+	margin-bottom: 26px;
+}
+.blog_body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.blog_body h1{
+	margin: 26px 0;
+}
+.blog_body p{
+	margin-bottom: 20px;
+}
+/*subscribe css here*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	padding: 70px; 0;
+	text-align: center;
+}
+
+
+}
+.subscribe_body h1{
+	text-transform: uppercase;
+}
+.title{
+	margin-bottom: 50px;
+}
+.title h1{
+	font-weight: 400;
+
+}
+form{
+	position: relative;
+}
+form input{
+	width: 20%;
+	padding: 10px 0;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+}
+form input:focus{
+	outline: none;
+}
+form i{
+	position: absolute;
+	top: 10px;
+	right: 42%;
+}
+.blog_glallery{
+	width: 100%;
+	display: flow-root;
+}
+.load_more{
+	padding: 70px 0;
+	text-align: center;
+}
+.button button{
+	padding: 10px;
+	background: transparent;
+	border-radius: 0;
+	outline: none;
+	border-width: none;
+	border-color: 1px solid black;
+	font-size: 18px;
+}
+/*footer part css here*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer_body{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+
+}
+.footer_left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.footer_right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.footer_left ul li,.footer_right ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer_left ul li{
+	margin-right: 20px;
+}
+.footer_right ul li{
+	margin-left: 20px;
+}
